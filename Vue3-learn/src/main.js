@@ -3,4 +3,8 @@ import App from './App.vue'
 
 import './assets/main.css'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+//App level Provider
+app.provide("name","eventdaata")
+app.mount('#app')

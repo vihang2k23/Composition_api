@@ -5,7 +5,12 @@
 // import watchVue from './components/watch.vue';
 // import Parent from "./components/Props/Parent.vue"
 // import ParentslotVue from './components/Props/Slot /Parentslot.vue';
-import nameparentVue from './components/Props/Slot /namedslot/nameparent.vue';
+
+// import Hello from './components/ProviderandInject/Hello.vue';
+// import compoVue from './components/composable/compo.vue';
+import customVue from './components/Customdirectivities/custom.vue';
+
+// import nameparentVue from './components/Props/Slot /namedslot/nameparent.vue';
 </script>
 <template>
   <div class="container">
@@ -15,6 +20,9 @@ import nameparentVue from './components/Props/Slot /namedslot/nameparent.vue';
 <!-- <Parent></Parent> -->
   <!-- <ref/> -->
 <!-- <ParentslotVue/> -->
-<nameparentVue/>
+<!-- <nameparentVue/> -->
+<!-- <Hello/> -->
+<!-- <compoVue/> -->
+<customVue/>
   </div>
 </template>
