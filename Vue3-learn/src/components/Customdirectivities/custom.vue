@@ -19,18 +19,18 @@ const vFontSize = {
         
     }}
 
-    const vFontColor= {
-        mounted : (el,binding)=>{
-            el.style.color  = "red"
-        }
-    }
+    // const vFontColor= {
+    //     mounted : (el,binding)=>{
+    //         el.style.color  = "red"
+    //     }
+    // }
  
 </script>
 
 <template>
 
         <div>
-        <h1 v-font-size="30" v-font-color >
+        <h1 v-font-size="30" v-color=red>
         Custom directives    
         </h1>
         </div>

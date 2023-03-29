@@ -8,7 +8,9 @@
     "preview": "vite preview --PORT 5174"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "axios": "^0.21.4",
+    "vue": "^3.2.47",
+    "vue-axios": "^3.5.2"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",

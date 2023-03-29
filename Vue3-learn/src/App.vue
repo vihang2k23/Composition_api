@@ -8,9 +8,10 @@
 
 // import Hello from './components/ProviderandInject/Hello.vue';
 // import compoVue from './components/composable/compo.vue';
-import customVue from './components/Customdirectivities/custom.vue';
+// import customVue from './components/Customdirectivities/custom.vue';
 
 // import nameparentVue from './components/Props/Slot /namedslot/nameparent.vue';
+import apiVue from './components/Axios/api.vue';
 </script>
 <template>
   <div class="container">
@@ -23,6 +24,7 @@ import customVue from './components/Customdirectivities/custom.vue';
 <!-- <nameparentVue/> -->
 <!-- <Hello/> -->
 <!-- <compoVue/> -->
-<customVue/>
+<!-- <customVue/> -->
+<apiVue/>
   </div>
 </template>
